@@ -1,6 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors')
+const cors = require('cors');
+const multer  = require('multer');
+
+const maxSize = 1000000; // 1 Mb
+const storage = multer.memoryStorage();
+const upload = multer({
+  storage,
+  limits: { fileSize: maxSize },
+}).single('file');
 
 const app = express();
 const port = process.env.PORT || 3333;
@@ -8,6 +16,32 @@ const port = process.env.PORT || 3333;
 app.use(bodyParser.json({ limit: '1000kb' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
+
+app.post(
+  '/api/file',
+  (req, res, next) => {
+    upload(req, res, err => {
+      if (err) {
+        const errorData = {
+          field: err.field || 'file',
+          message: err.message,
+        };
+
+        res.status(400).send(errorData);
+      } else {
+        next();
+      }
+    });
+  }, (req, res) => {
+    const { originalname, mimetype, size } = req.file;
+
+    res.status(200).send({
+      fileName: originalname,
+      mimetype,
+      size: `${size} bytes`
+    });
+  }
+);
 
 const data = [
   {
