@@ -1,5 +1,6 @@
 const data = [
   {
+    id: '71ce9eac-e9b9-44f0-a342-9ff0b565f3b7',
     name: 'Hotel Leopold',
     city: 'Saint Petersburg',
     country: 'Russia',
@@ -10,6 +11,7 @@ const data = [
     },
   },
   {
+    id: 'aa560608-a879-48a7-80b6-deff2806b250',
     name: 'Apartment Sunshine',
     city: 'Santa  Cruz de Tenerife',
     country: 'Spain',
@@ -20,6 +22,7 @@ const data = [
     },
   },
   {
+    id: '1d88fefe-edf1-4cda-844a-babbf29bb2b3',
     name: 'Villa Kunerad',
     city: 'Vysokie Tatry',
     country: 'Slowakia',
@@ -30,6 +33,7 @@ const data = [
     },
   },
   {
+    id: 'a2bf824d-edd8-41f0-8b70-244334086ab4',
     name: 'Hostel Friendship',
     city: 'Berlin',
     country: 'Germany',
@@ -40,6 +44,7 @@ const data = [
     },
   },
   {
+    id: '4024535d-a498-4274-b7cb-f01ada962971',
     name: 'Radisson Blu Hotel',
     city: 'Kyiv',
     country: 'Ukraine',
@@ -50,6 +55,7 @@ const data = [
     },
   },
   {
+    id: 'e51e71f6-6baf-4493-b3ae-25dc27cdc238',
     name: 'Paradise Hotel',
     city: 'Guadalupe',
     country: 'Mexico',
@@ -60,6 +66,7 @@ const data = [
     },
   },
   {
+    id: '87d2b966-2431-43f3-8c0d-2c8723474dfc',
     name: 'Hotel Grindewald',
     city: 'Interlaken',
     country: 'Switzerland',
@@ -70,6 +77,7 @@ const data = [
     },
   },
   {
+    id: '190221c6-b18f-4dba-97de-e35f0e14c023',
     name: 'The Andaman Resort',
     city: 'Port Dickson',
     country: 'Malaysia',
@@ -80,6 +88,7 @@ const data = [
     },
   },
   {
+    id: 'eba73987-e771-47fd-bc54-59411a0608f3',
     name: 'Virgin Hotel',
     city: 'Chicago',
     country: 'USA',
@@ -90,6 +99,7 @@ const data = [
     },
   },
   {
+    id: '81527412-e1c1-4659-a966-6714af086c6b',
     name: 'Grand Beach Resort',
     city: 'Dubai',
     country: 'United Arab Emirates',
@@ -100,6 +110,7 @@ const data = [
     },
   },
   {
+    id: '077b2e8f-ca30-448a-8556-5f750bf32b4b',
     name: 'Shilla Stay',
     city: 'Seoul',
     country: 'South Korea',
@@ -110,6 +121,7 @@ const data = [
     },
   },
   {
+    id: '15706be7-2e4f-4ea7-8698-3cfab390e733',
     name: 'San Firenze Suites',
     city: 'Florence',
     country: 'Italy',
@@ -120,6 +132,7 @@ const data = [
     },
   },
   {
+    id: 'a2bdf10e-a3a9-4fd6-bde9-b0b6fa013042',
     name: 'The Andaman Resort',
     city: 'Port Dickson',
     country: 'Malaysia',
@@ -130,6 +143,7 @@ const data = [
     },
   },
   {
+    id: '5abd3bd1-ac54-43dd-b315-151b144a8718',
     name: 'Black Penny Villas',
     city: 'BTDC, Nuca Dua',
     country: 'Indonesia',
@@ -140,6 +154,7 @@ const data = [
     },
   },
   {
+    id: '894eaa90-88a3-4b6f-b7fe-93c8de6ba3f6',
     name: 'Koko Hotel',
     city: 'Tokyo',
     country: 'Japan',
@@ -150,6 +165,7 @@ const data = [
     },
   },
   {
+    id: '4c97e73d-ccca-4d1e-8f2f-448abe957799',
     name: 'Ramada Plaza',
     city: 'Istanbul',
     country: 'Turkey',
@@ -160,6 +176,7 @@ const data = [
     },
   },
   {
+    id: 'cd45d380-5eac-460a-bf69-cdd8a789bbd1',
     name: 'Waikiki Resort Hotel',
     city: 'Hawaii',
     country: 'USA',
@@ -170,6 +187,7 @@ const data = [
     },
   },
   {
+    id: '90dc3cf2-8734-49d9-a146-a76b6de25c22',
     name: 'Puro Hotel',
     city: 'Krakow',
     country: 'Poland',
@@ -180,6 +198,7 @@ const data = [
     },
   },
   {
+    id: 'e41ae4b2-06cc-4060-a9c2-b07a4fac9831',
     name: 'Asma Suites',
     city: 'Santorini',
     country: 'Greece',
@@ -190,6 +209,7 @@ const data = [
     },
   },
   {
+    id: 'a99e1c7e-8710-4702-960e-8110ae94ac7d',
     name: 'Cityden Apartments',
     city: 'Amsterdam',
     country: 'Netherlands',
@@ -200,6 +220,7 @@ const data = [
     },
   },
   {
+    id: '261cb802-c4d4-4f32-ab81-0b2f5bf6ed1e',
     name: 'Mandarin Oriental',
     city: 'Miami',
     country: 'USA',
@@ -210,6 +231,7 @@ const data = [
     },
   },
   {
+    id: 'fd58331e-0aff-4276-9748-a74c32201188',
     name: 'Concept Terrace Hotel',
     city: 'Rome',
     country: 'Italy',
@@ -220,6 +242,7 @@ const data = [
     },
   },
   {
+    id: '34ab0b18-3111-4887-8237-b31c7c976891',
     name: 'Ponta Mar Hotel',
     city: 'Fortaleza',
     country: 'Brazil',
@@ -230,6 +253,7 @@ const data = [
     },
   },
   {
+    id: '3abc954d-f698-468c-a07c-b2470a298635',
     name: 'Four Seasons Hotel',
     city: 'Sydney',
     country: 'Australia',
@@ -240,6 +264,7 @@ const data = [
     },
   },
   {
+    id: '299c5ecb-3089-46e9-a38c-aa552fd9bcd9',
     name: 'Le Meridien',
     city: 'Nice',
     country: 'France',
@@ -250,6 +275,7 @@ const data = [
     },
   },
   {
+    id: '4c50d179-6300-4574-a22d-1011c2f88b94',
     name: 'Apart Neptun',
     city: 'Gdansk',
     country: 'Poland',
@@ -260,6 +286,7 @@ const data = [
     },
   },
   {
+    id: 'ccc4021a-b429-4faf-a157-b239a68662bb',
     name: 'Lux Isla',
     city: 'Ibiza',
     country: 'Spain',
@@ -270,6 +297,7 @@ const data = [
     },
   },
   {
+    id: '5f7da189-99bb-49a5-8a2e-4faea1f65aaf',
     name: 'Nox Hostel',
     city: 'London',
     country: 'UK',
@@ -280,6 +308,7 @@ const data = [
     },
   },
   {
+    id: '275ed60b-0ec5-4d11-ae94-90832cb35a01',
     name: 'Leonardo Vienna',
     city: 'Vienna',
     country: 'Austria',
@@ -290,6 +319,7 @@ const data = [
     },
   },
   {
+    id: '6edd22cf-ee3e-4164-9aed-28aad5ae8584',
     name: 'Adagio Aparthotel',
     city: 'Edinburgh',
     country: 'UK',
@@ -300,6 +330,7 @@ const data = [
     },
   },
   {
+    id: 'be445a03-be6a-4779-9465-f46e19a18895',
     name: 'Steigenberger Hotel',
     city: 'Hamburg',
     country: 'Germany',

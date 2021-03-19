@@ -101,6 +101,17 @@ app.get('/api/hotels/popular', (req, res) => {
   );
 });
 
+app.get('/api/hotels/:id', (req, res) => {
+  const hotel = data.find(item => item.id === req.params.id);
+
+  if (hotel) {
+    const { booked, ...view } = hotel;
+    res.status(200).send(view);
+  } else {
+    res.status(404).send('404. Page doesn\'t exist');
+  }
+});
+
 app.use((req, res) => {
   res.status(404).send('404. Page doesn\'t exist');
 });
