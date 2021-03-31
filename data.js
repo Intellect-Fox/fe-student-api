@@ -9,6 +9,11 @@ const data = [
       from: 1612861200000,
       to: 1613379600000,
     },
+    filter: {
+      adults: 5,
+      children: 3,
+      rooms: 6,
+    },
   },
   {
     id: 'aa560608-a879-48a7-80b6-deff2806b250',
@@ -19,6 +24,11 @@ const data = [
     booked: {
       from: null,
       to: null,
+    },
+    filter: {
+      adults: 2,
+      children: 0,
+      rooms: 1,
     },
   },
   {
@@ -31,6 +41,11 @@ const data = [
       from: 1615798800000,
       to: 1617094800000,
     },
+    filter: {
+      adults: 2,
+      children: 1,
+      rooms: 2,
+    },
   },
   {
     id: 'a2bf824d-edd8-41f0-8b70-244334086ab4',
@@ -41,6 +56,11 @@ const data = [
     booked: {
       from: null,
       to: null,
+    },
+    filter: {
+      adults: 30,
+      children: 10,
+      rooms: 5,
     },
   },
   {
@@ -53,6 +73,11 @@ const data = [
       from: 1612170000000,
       to: 1613379600000,
     },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 1,
+    },
   },
   {
     id: 'e51e71f6-6baf-4493-b3ae-25dc27cdc238',
@@ -63,6 +88,11 @@ const data = [
     booked: {
       from: 1613379600000,
       to: 1614589200000,
+    },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 2,
     },
   },
   {
@@ -75,6 +105,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 1,
+    },
   },
   {
     id: '190221c6-b18f-4dba-97de-e35f0e14c023',
@@ -85,6 +120,11 @@ const data = [
     booked: {
       from: 1612170000000,
       to: 1622019600000,
+    },
+    filter: {
+      adults: 5,
+      children: 2,
+      rooms: 6,
     },
   },
   {
@@ -97,6 +137,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 2,
+      children: 1,
+      rooms: 2,
+    },
   },
   {
     id: '81527412-e1c1-4659-a966-6714af086c6b',
@@ -107,6 +152,11 @@ const data = [
     booked: {
       from: 1612170000000,
       to: 1613293200000,
+    },
+    filter: {
+      adults: 10,
+      children: 5,
+      rooms: 15,
     },
   },
   {
@@ -119,6 +169,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 20,
+      children: 10,
+      rooms: 30,
+    },
   },
   {
     id: '15706be7-2e4f-4ea7-8698-3cfab390e733',
@@ -129,6 +184,11 @@ const data = [
     booked: {
       from: 1613293200000,
       to: 1614070800000,
+    },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 3,
     },
   },
   {
@@ -141,6 +201,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 2,
+      children: 0,
+      rooms: 1,
+    },
   },
   {
     id: '5abd3bd1-ac54-43dd-b315-151b144a8718',
@@ -151,6 +216,11 @@ const data = [
     booked: {
       from: 1613293200000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 10,
+      children: 3,
+      rooms: 10,
     },
   },
   {
@@ -163,6 +233,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 25,
+      children: 8,
+      rooms: 30,
+    },
   },
   {
     id: '4c97e73d-ccca-4d1e-8f2f-448abe957799',
@@ -173,6 +248,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 10,
+      children: 5,
+      rooms: 15,
     },
   },
   {
@@ -185,6 +265,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 15,
+      children: 7,
+      rooms: 20,
+    },
   },
   {
     id: '90dc3cf2-8734-49d9-a146-a76b6de25c22',
@@ -195,6 +280,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1616922000000,
+    },
+    filter: {
+      adults: 20,
+      children: 10,
+      rooms: 20,
     },
   },
   {
@@ -207,6 +297,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 1,
+    },
   },
   {
     id: 'a99e1c7e-8710-4702-960e-8110ae94ac7d',
@@ -217,6 +312,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 1,
     },
   },
   {
@@ -229,6 +329,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 20,
+      children: 6,
+      rooms: 25,
+    },
   },
   {
     id: 'fd58331e-0aff-4276-9748-a74c32201188',
@@ -239,6 +344,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 10,
+      children: 3,
+      rooms: 8,
     },
   },
   {
@@ -251,6 +361,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 30,
+      children: 10,
+      rooms: 30,
+    },
   },
   {
     id: '3abc954d-f698-468c-a07c-b2470a298635',
@@ -261,6 +376,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 30,
+      children: 10,
+      rooms: 30,
     },
   },
   {
@@ -273,6 +393,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 10,
+      children: 5,
+      rooms: 10,
+    },
   },
   {
     id: '4c50d179-6300-4574-a22d-1011c2f88b94',
@@ -283,6 +408,11 @@ const data = [
     booked: {
       from: 1613120400000,
       to: 1615280400000,
+    },
+    filter: {
+      adults: 5,
+      children: 2,
+      rooms: 5,
     },
   },
   {
@@ -295,6 +425,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 1,
+      children: 0,
+      rooms: 1,
+    },
   },
   {
     id: '5f7da189-99bb-49a5-8a2e-4faea1f65aaf',
@@ -305,6 +440,11 @@ const data = [
     booked: {
       from: null,
       to: null,
+    },
+    filter: {
+      adults: 20,
+      children: 5,
+      rooms: 20,
     },
   },
   {
@@ -317,6 +457,11 @@ const data = [
       from: null,
       to: null,
     },
+    filter: {
+      adults: 3,
+      children: 1,
+      rooms: 2,
+    },
   },
   {
     id: '6edd22cf-ee3e-4164-9aed-28aad5ae8584',
@@ -328,6 +473,11 @@ const data = [
       from: 1613120400000,
       to: 1615280400000,
     },
+    filter: {
+      adults: 15,
+      children: 4,
+      rooms: 18,
+    },
   },
   {
     id: 'be445a03-be6a-4779-9465-f46e19a18895',
@@ -338,6 +488,11 @@ const data = [
     booked: {
       from: null,
       to: null,
+    },
+    filter: {
+      adults: 30,
+      children: 10,
+      rooms: 30,
     },
   },
 ];
